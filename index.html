@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>ALIENS Studio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0 user-scalable=0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/script.js" defer></script>
+</head>
+<body>
+
+<header>
+	<div class="container header__body">
+		<div class="header__column">
+			<a class="header__logo" href="#about">ALIENS Studio</a>
+		</div>
+		
+		<div class="header__column menu-header">
+			<div class="menu-header__icon">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<nav class="menu-header__menu">
+				<ul class="menu-header__list">
+					<li><a class="menu-header__link" href="#about">About</a></li>
+					<li><a class="menu-header__link" href="#services">Services</a></li>
+					<li><a class="menu-header__link" href="#team">Team</a></li>
+					<li><a class="menu-header__link" href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</header>
+
+<main class="content">
+	<!-- Welcoming info -->
+	<section class="banner container" id="about">
+		<div class="banner-info">
+			<h1 class="banner-info__title">Welcome to Aliens Studio</h1>
+			<h2 class="banner-info__subtitle">We provide first-class fun</h2>
+			<div class="banner-info__button"><a href="#contact">Join us now</a></div>
+		</div>
+	</section>
+	<!-- About block -->
+	<section class="about container">
+		<h2 class="about__title">Let me speak from my heart!</h2>
+		<p class="about__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus cum autem ducimus, illum quos animi odio, quae vitae dicta minima tenetur hic eaque eius dolores minus nulla, nam consequatur, quidem.
+		Vero, amet consequuntur illum quam assumenda nobis, fugiat iusto voluptatem voluptate dolor, at quasi. Iste, dicta. Quisquam sit, officiis placeat, deserunt quidem esse fuga rerum dolorem dignissimos dicta quos, doloremque?
+		Velit adipisci quae doloremque possimus minus expedita voluptate minima animi nisi, odio quas sint impedit necessitatibus hic vel harum ex. Repudiandae praesentium tenetur laborum ipsum excepturi unde expedita aperiam perspiciatis.
+		Vitae quisquam quod quasi dolorem voluptates pariatur quia reprehenderit, fugiat nemo libero delectus eaque facere, esse sequi, culpa. Magnam eius dolorem reprehenderit? Cupiditate minima repudiandae necessitatibus aspernatur numquam ea! Deleniti.
+		Nesciunt, veritatis! Quia reprehenderit veritatis recusandae rem laboriosam voluptate dolores culpa dicta quis reiciendis sunt labore doloremque excepturi distinctio omnis enim, velit molestias perferendis neque assumenda aspernatur ratione pariatur? Rerum.</p>
+	</section>
+	<!-- Services block -->
+	<section class="services container" id="services">
+		<h2 class="services__title">Services</h2>
+		<h3>Modern problems require modern solutions, so here they are</h3>
+		<div class="services__products">
+			<div class="services__item">
+				<div class="item-services__img item-services__img-1"></div>
+				<p class="item-services__caption">Sweet hugs</p>
+			</div>
+			<div class="services__item">
+				<div class="item-services__img item-services__img-2"></div>
+				<p class="item-services__caption">Tiny bites</p>
+			</div>
+			<div class="services__item">
+				<div class="item-services__img item-services__img-3"></div>
+				<p class="item-services__caption">Adventure with Ripley</p>
+			</div>
+		</div>
+	</section>
+
+	<!-- Company's Team -->
+	<section class="team container" id="team">
+		<h2 class="team__title">Our team</h2>
+		<div class="team__people">
+			<div class="team__teammate">
+				<div class="teammate__img teammate__img-1"></div>
+				<p class="teammate__name">Nice guy</p>
+			</div>
+			<div class="team__teammate">
+				<div class="teammate__img teammate__img-2"></div>
+				<p class="teammate__name">Ripley</p>
+			</div>
+			<div class="team__teammate">
+				<div class="teammate__img teammate__img-3"></div>
+				<p class="teammate__name">Soldier</p>
+			</div>
+			<div class="team__teammate">
+				<div class="teammate__img teammate__img-4"></div>
+				<p class="teammate__name">Bad Girl</p>
+			</div>
+		</div>
+	</section>
+
+	<!-- Contacts -->
+	<section class="contact container" id="contact">
+		<h2 class="contact__title">Get in touch</h2>
+		<h3>Contact us via this form and don't hesitate to ask questions!</h3>
+		<form method="POST" action="#">
+			<label for="name">Enter your name:</label>
+			<input type="text" id="name" name="name" placeholder="Annabel" required>
+			<label for="list">Select service:</label>
+			<input id="list" list="list-services" placeholder="Hugs">
+			<datalist id='list-services'>
+				<option value="Sweet hugs"></option>
+				<option value="Tiny bites"></option>
+				<option value="Adventure with Ripley"></option>
+			</datalist>
+			<label for='additional'>Need something special?</label>
+			<textarea id="additional" rows="10" cols="30" placeholder="Tell us more"></textarea>
+			<input type="submit" name="Send">
+		</form>
+	</section>
+</main>
+
+<footer class="container">
+	<div class="container">
+		<p>never stop joking by <span>Anastasiya</span></p>
+	</div>
+</footer>
+
+</body>
+</html>
